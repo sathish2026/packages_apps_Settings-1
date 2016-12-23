@@ -200,4 +200,12 @@
                 android:title="@string/developer_smallest_width" />
         </PreferenceCategory>
 
+    <PreferenceCategory
+            android:title="@string/theme_title">
+
+        <com.android.settings.display.ThemePreference
+                android:key="theme"
+                android:title="@string/theme" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
